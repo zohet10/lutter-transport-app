@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "515816128883",
+    "project_id": "transporte-azucarera-app",
+    "storage_bucket": "transporte-azucarera-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515816128883:android:c4d34a13502b049d6a0506",
+        "android_client_info": {
+          "package_name": "com.example.transporte"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkWmnl1RK5Gngi1n5k4TTDGgOwtxWTYME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

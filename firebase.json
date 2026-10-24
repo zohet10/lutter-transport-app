@@ -1,0 +1,38 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "transporte-azucarera-app",
+          "appId": "1:515816128883:android:c4d34a13502b049d6a0506",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "transporte-azucarera-app",
+          "configurations": {
+            "android": "1:515816128883:android:c4d34a13502b049d6a0506",
+            "ios": "1:515816128883:ios:095c3b35e292b8f46a0506",
+            "macos": "1:515816128883:ios:095c3b35e292b8f46a0506",
+            "web": "1:515816128883:web:e2bd6d35b75b7c226a0506"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
